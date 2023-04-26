@@ -1,0 +1,43 @@
+name: Publish Package
+on:
+  push:
+    branches: [main, next]
+  pull_request:
+    branches: [main, next]
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+jobs:
+  quality:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+        os: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: yarn install
+      - run: yarn test
+
+  package_release:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: [quality]
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: yarn install
+      - run: yarn build
+      - run: yarn semantic-release
