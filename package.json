@@ -1,6 +1,6 @@
 {
   "name": "@jtmdias/merge-coverage",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Merges test coverage between different test frameworks",
   "author": "João Dias @JoaoTMDias",
   "bin": {
@@ -50,7 +50,7 @@
     "nyc": "^15.1.0",
     "oclif": "^3",
     "prettier": "^2.8.8",
-    "semantic-release": "^20.1.1",
+    "semantic-release": "^21.0.1",
     "shx": "^0.3.3",
     "ts-node": "^10.9.1",
     "tslib": "^2.5.0",
@@ -86,7 +86,8 @@
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
     "prettier:base": "prettier --parser typescript",
-    "format:fix": "yarn prettier:base --write '{src,test}/**/*.{ts,tsx,js,jsx}'"
+    "format:fix": "yarn prettier:base --write '{src,test}/**/*.{ts,tsx,js,jsx}'",
+    "semantic-release": "semantic-release"
   },
   "engines": {
     "node": ">=18"
