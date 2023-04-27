@@ -20,7 +20,7 @@ $ npm install -g @jtmdias/merge-coverage
 $ merge-coverage COMMAND
 running command...
 $ merge-coverage (--version)
-@jtmdias/merge-coverage/0.0.0 linux-x64 node-v18.13.0
+@jtmdias/merge-coverage/1.0.0 linux-x64 node-v18.16.0
 $ merge-coverage --help [COMMAND]
 USAGE
   $ merge-coverage COMMAND
@@ -29,8 +29,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`merge-coverage hello PERSON`](#merge-coverage-hello-person)
-* [`merge-coverage hello world`](#merge-coverage-hello-world)
+* [`merge-coverage clear`](#merge-coverage-clear)
+* [`merge-coverage combine`](#merge-coverage-combine)
 * [`merge-coverage help [COMMANDS]`](#merge-coverage-help-commands)
 * [`merge-coverage plugins`](#merge-coverage-plugins)
 * [`merge-coverage plugins:install PLUGIN...`](#merge-coverage-pluginsinstall-plugin)
@@ -42,45 +42,48 @@ USAGE
 * [`merge-coverage plugins:uninstall PLUGIN...`](#merge-coverage-pluginsuninstall-plugin-2)
 * [`merge-coverage plugins update`](#merge-coverage-plugins-update)
 
-## `merge-coverage hello PERSON`
+## `merge-coverage clear`
 
-Say hello
+Clears the coverage folder
 
 ```
 USAGE
-  $ merge-coverage hello PERSON -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
+  $ merge-coverage clear [-f <value>]
 
 FLAGS
-  -f, --from=<value>  (required) Who is saying hello
+  -f, --folder=<value>  Custom reports folder
 
 DESCRIPTION
-  Say hello
+  Clears the coverage folder
 
 EXAMPLES
-  $ oex hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
+  $ merge-coverage clear
+  $ merge-coverage clear --folder custom-folder/reports
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v0.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/clear/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.0/dist/commands/clear/index.ts)_
 
-## `merge-coverage hello world`
+## `merge-coverage combine`
 
-Say hello world
+Combines coverage from different test runner tools
 
 ```
 USAGE
-  $ merge-coverage hello world
+  $ merge-coverage combine [-f <value>] [-f <value>]
+
+FLAGS
+  -f, --folder=<value>  Custom reports folder
+  -f, --tools=<value>   Test runner tools
 
 DESCRIPTION
-  Say hello world
+  Combines coverage from different test runner tools
 
 EXAMPLES
-  $ merge-coverage hello world
-  hello world! (./src/commands/hello/world.ts)
+  $ merge-coverage combine
+  $ merge-coverage combine --tools vitest,cypress
 ```
+
+_See code: [dist/commands/combine/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.0/dist/commands/combine/index.ts)_
 
 ## `merge-coverage help [COMMANDS]`
 
@@ -120,7 +123,7 @@ EXAMPLES
   $ merge-coverage plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v2.4.6/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v2.4.7/src/commands/plugins/index.ts)_
 
 ## `merge-coverage plugins:install PLUGIN...`
 

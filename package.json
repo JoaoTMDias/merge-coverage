@@ -1,6 +1,6 @@
 {
   "name": "@jtmdias/merge-coverage",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Merges test coverage between different test frameworks",
   "author": "João Dias @JoaoTMDias",
   "bin": {
