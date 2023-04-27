@@ -1,13 +1,12 @@
-oclif-hello-world
+@jtmdias/merge-coverage
 =================
 
-oclif example Hello World CLI
+Combines code coverage between jest, vitest and/or cypress.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+[![Version](https://img.shields.io/npm/v/@jtmdias/merge-coverage.svg)](https://www.npmjs.com/package/@jtmdias/merge-coverage)
+[![CircleCI](https://github.com/JoaoTMDias/js-utilities/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/JoaoTMDias/js-utilities/actions/workflows/publish.yml)
+[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/joaotmdias/merge-coverage/blob/main/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -156,7 +155,7 @@ ALIASES
   $ merge-coverage plugins add
 
 EXAMPLES
-  $ merge-coverage plugins:install myplugin 
+  $ merge-coverage plugins:install myplugin
 
   $ merge-coverage plugins:install https://github.com/someuser/someplugin
 
@@ -219,7 +218,7 @@ ALIASES
   $ merge-coverage plugins add
 
 EXAMPLES
-  $ merge-coverage plugins:install myplugin 
+  $ merge-coverage plugins:install myplugin
 
   $ merge-coverage plugins:install https://github.com/someuser/someplugin
 
