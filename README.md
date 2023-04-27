@@ -20,7 +20,7 @@ $ npm install -g @jtmdias/merge-coverage
 $ merge-coverage COMMAND
 running command...
 $ merge-coverage (--version)
-@jtmdias/merge-coverage/1.0.0 linux-x64 node-v18.16.0
+@jtmdias/merge-coverage/1.0.0 linux-x64 node-v18.13.0
 $ merge-coverage --help [COMMAND]
 USAGE
   $ merge-coverage COMMAND
