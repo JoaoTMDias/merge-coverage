@@ -1,10 +1,15 @@
 {
   "name": "@jtmdias/merge-coverage",
+  "private": false,
   "version": "1.0.0",
   "description": "Merges test coverage between different test frameworks",
   "author": "João Dias @JoaoTMDias",
   "bin": {
     "merge-coverage": "./bin/run"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "homepage": "https://github.com/JoaoTMDias/merge-coverage",
   "license": "MIT",
@@ -80,7 +85,7 @@
     "types:emit": "tsc -b",
     "build": "yarn clean:dist && yarn types:emit",
     "lint": "eslint . --ext .ts --config .eslintrc",
-    "postpack": "clean:manifest",
+    "postpack": "yarn clean:manifest",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
