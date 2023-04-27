@@ -5,13 +5,13 @@ import * as fsExtra from "fs-extra";
  * If the directory does not exist, it is created. The directory itself is not deleted.
  */
 export function clearFolder(folder: string): Promise<void> {
-  return new Promise((resolve, reject) => {
-    try {
-      fsExtra.emptyDirSync(folder);
+	return new Promise((resolve, reject) => {
+		try {
+			fsExtra.emptyDirSync(folder);
 
-      resolve();
-    } catch (err) {
-      reject(err);
-    }
-  });
+			resolve();
+		} catch (error) {
+			reject(error);
+		}
+	});
 }
