@@ -6,13 +6,13 @@ describe("clear", () => {
 		.stdout()
 		.command(["clear"])
 		.it("should run default clear command", (ctx) => {
-			expect(ctx.stdout).to.contain(`✓ Cleared coverage folder on: ${DEFAULT_REPORTS_FOLDER}`);
+			expect(ctx.stdout).to.contain(`✓ Cleared coverage folder: ${DEFAULT_REPORTS_FOLDER}`);
 		});
 
 	test
 		.stdout()
 		.command(["clear", "--folder=custom-folder/reports"])
 		.it("should run default clear command", (ctx) => {
-			expect(ctx.stdout).to.contain(`✓ Cleared coverage folder on: custom-folder/reports`);
+			expect(ctx.stdout).to.contain(`✓ Cleared coverage folder: custom-folder/reports`);
 		});
 });

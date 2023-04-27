@@ -3,7 +3,8 @@ import { DEFAULT_REPORTS_FOLDER } from "../../constants";
 import { clearFolder } from "../../helpers";
 
 export default class Clear extends Command {
-	static description = "Clears the coverage folder";
+	static description =
+		"Clears the coverage folder before running tests. This command is useful when it runs before executing the pipeline of tests. So, on a pre-hook script like 'pretest'";
 
 	static examples = [
 		`$ <%= config.bin %> <%= command.id %>
@@ -26,7 +27,7 @@ $ <%= config.bin %> <%= command.id %> --folder custom-folder/reports
 		try {
 			await clearFolder(REPORTS_FOLDER);
 
-			this.log(`✓ Cleared coverage folder on: ${REPORTS_FOLDER}`);
+			this.log(`✓ Cleared coverage folder: ${REPORTS_FOLDER}`);
 		} catch (error) {
 			this.log(`⚠️ Clearing coverage: `, error);
 		}
