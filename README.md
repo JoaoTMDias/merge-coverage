@@ -19,7 +19,7 @@ $ npm install -g @jtmdias/merge-coverage
 $ merge-coverage COMMAND
 running command...
 $ merge-coverage (--version)
-@jtmdias/merge-coverage/1.0.1 darwin-x64 node-v16.19.1
+@jtmdias/merge-coverage/1.0.2 darwin-x64 node-v16.19.1
 $ merge-coverage --help [COMMAND]
 USAGE
   $ merge-coverage COMMAND
@@ -61,7 +61,7 @@ EXAMPLES
   $ merge-coverage clear --folder custom-folder/reports
 ```
 
-_See code: [dist/commands/clear/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.1/dist/commands/clear/index.ts)_
+_See code: [dist/commands/clear/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.2/dist/commands/clear/index.ts)_
 
 ## `merge-coverage combine`
 
@@ -83,7 +83,7 @@ EXAMPLES
   $ merge-coverage combine --tools vitest,cypress
 ```
 
-_See code: [dist/commands/combine/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.1/dist/commands/combine/index.ts)_
+_See code: [dist/commands/combine/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.2/dist/commands/combine/index.ts)_
 
 ## `merge-coverage help [COMMANDS]`
 
