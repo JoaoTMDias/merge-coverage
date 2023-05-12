@@ -19,7 +19,7 @@ $ npm install -g @jtmdias/merge-coverage
 $ merge-coverage COMMAND
 running command...
 $ merge-coverage (--version)
-@jtmdias/merge-coverage/1.0.1 darwin-x64 node-v16.19.1
+@jtmdias/merge-coverage/1.0.1 linux-x64 node-v18.16.0
 $ merge-coverage --help [COMMAND]
 USAGE
   $ merge-coverage COMMAND
