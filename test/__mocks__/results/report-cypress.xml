@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.035" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-12T15:28:09" tests="0" file="packages/breadcrumbs/__tests__/Breadcrumbs.cy.tsx" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Breadcrumbs" timestamp="2023-05-12T15:28:09" tests="6" time="1.980" failures="0">
+    <testcase name="Breadcrumbs should render without errors" time="0.154" classname="should render without errors">
+    </testcase>
+    <testcase name="Breadcrumbs Should render a semantically correct breadcrumbs component" time="0.137" classname="Should render a semantically correct breadcrumbs component">
+    </testcase>
+    <testcase name="Breadcrumbs should render separators on each list item, except the last" time="0.064" classname="should render separators on each list item, except the last">
+    </testcase>
+    <testcase name="Breadcrumbs Should render correctly with an sibling separator" time="0.043" classname="Should render correctly with an sibling separator">
+    </testcase>
+    <testcase name="Breadcrumbs Should not render the current page attribute on the last item" time="0.032" classname="Should not render the current page attribute on the last item">
+    </testcase>
+    <testcase name="Breadcrumbs Should render basic structure even with an invalid child element" time="0.026" classname="Should render basic structure even with an invalid child element">
+    </testcase>
+  </testsuite>
+</testsuites>

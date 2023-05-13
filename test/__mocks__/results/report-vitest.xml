@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="114" failures="0" errors="0" time="27.739">
+    <testsuite name="packages/avatar/__tests__/Avatar.spec.tsx" timestamp="2023-05-12T15:27:47.418Z" hostname="FFPTM2C20H5MD6P" tests="19" failures="0" errors="0" skipped="0" time="0.319">
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a Picture Avatar" time="0.063">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an Initials Avatar" time="0.017">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an Initials Avatar with small size" time="0.015">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an Initials Avatar with medium size" time="0.025">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an Initials Avatar with large size" time="0.024">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an Initials Avatar with xl size" time="0.006">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an Initials Avatar with xxl size" time="0.015">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an active Initials Avatar" time="0.014">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a guest Icon Avatar" time="0.013">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an active guest Icon Avatar with s size" time="0.011">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an active guest Icon Avatar with m size" time="0.011">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an active guest Icon Avatar with l size" time="0.013">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render an active guest Icon Avatar with xl or xxl size" time="0.012">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a new session Icon Avatar" time="0.014">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a new session Avatar with s size" time="0.014">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a new session Avatar with m size" time="0.015">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a new session Avatar with l size" time="0.011">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar &gt; should render a new session Avatar with xl or xxl size" time="0.004">
+        </testcase>
+        <testcase classname="packages/avatar/__tests__/Avatar.spec.tsx" name="Avatar component &gt; Avatar Group &gt; should render an Avatar group correctly" time="0.014">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/button/__tests__/Button.spec.tsx" timestamp="2023-05-12T15:27:47.422Z" hostname="FFPTM2C20H5MD6P" tests="18" failures="0" errors="0" skipped="0" time="0.368">
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonColorFlat &gt; should render a ButtonColorFlat correctly" time="0.056">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonColorFlat &gt; should render a ButtonColorFlat correctly with an icon" time="0.013">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonColorFlat &gt; should render a ButtonColorFlat correctly with double icon and isLoading" time="0.032">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonFlat &gt; should render a ButtonFlat correctly" time="0.018">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonFlat &gt; should render a ButtonFlat correctly with an icon and isFluid" time="0.015">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonFlat &gt; should render a ButtonFlat correctly with an icon and isLoading" time="0.025">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonPrimary &gt; should render a ButtonPrimary correctly" time="0.013">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonPrimary &gt; should render a ButtonPrimary correctly with an icon and isFluid" time="0.015">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonPrimary &gt; should render a ButtonPrimary correctly with an icon and isLoading" time="0.015">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonColor &gt; should render a ButtonColor correctly" time="0.013">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonColor &gt; should render a ButtonColor correctly with an icon and brandRole" time="0.013">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonColor &gt; should render a ButtonColor correctly with an icon and isLoading" time="0.022">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonIconOnly &gt; should render a ButtonIconOnly correctly" time="0.018">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonIconOnly &gt; should render a ButtonIconOnly correctly with isLoading" time="0.028">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonSecondary &gt; should render a ButtonSecondary correctly" time="0.025">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonSecondary &gt; should render a ButtonSecondary correctly with an icon" time="0.01">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonSecondary &gt; should render a ButtonSecondary correctly with an icon and isLoading" time="0.018">
+        </testcase>
+        <testcase classname="packages/button/__tests__/Button.spec.tsx" name="Button components &gt; ButtonSecondary &gt; should render a ButtonSecondary correctly with double icon" time="0.008">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/dropdown/__tests__/DropdownSingleSelect.spec.tsx" timestamp="2023-05-12T15:27:47.425Z" hostname="FFPTM2C20H5MD6P" tests="3" failures="0" errors="0" skipped="0" time="0.346">
+        <testcase classname="packages/dropdown/__tests__/DropdownSingleSelect.spec.tsx" name="Dropdown Single select &gt; Should render without error" time="0.106">
+        </testcase>
+        <testcase classname="packages/dropdown/__tests__/DropdownSingleSelect.spec.tsx" name="Dropdown Single select &gt; Should render disabled state" time="0.032">
+        </testcase>
+        <testcase classname="packages/dropdown/__tests__/DropdownSingleSelect.spec.tsx" name="Dropdown Single select &gt; Should open dropdown when open is clicked" time="0.201">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/icons/src/IconsList.spec.tsx" timestamp="2023-05-12T15:27:47.425Z" hostname="FFPTM2C20H5MD6P" tests="1" failures="0" errors="0" skipped="0" time="0.227">
+        <testcase classname="packages/icons/src/IconsList.spec.tsx" name="IconsList component &gt; Shown render available icons list &gt; Should render storm ui kit icons" time="0.216">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/icons/src/PaymentMethodsIconsList.spec.tsx" timestamp="2023-05-12T15:27:47.426Z" hostname="FFPTM2C20H5MD6P" tests="1" failures="0" errors="0" skipped="0" time="0.285">
+        <testcase classname="packages/icons/src/PaymentMethodsIconsList.spec.tsx" name="PaymentMethodsIconsList component &gt; Shown render available icons list &gt; Should render storm ui payment methods icons list" time="0.266">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/link/__tests__/Link.spec.tsx" timestamp="2023-05-12T15:27:47.426Z" hostname="FFPTM2C20H5MD6P" tests="10" failures="0" errors="0" skipped="0" time="0.133">
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render with animation" time="0.064">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; sould render without animation" time="0.007">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render when disabled" time="0.006">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render when disabled and with animation" time="0.009">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render when loading" time="0.006">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render with left icon" time="0.008">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render with right icon" time="0.007">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render with right and left icon" time="0.008">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render with href" time="0.005">
+        </testcase>
+        <testcase classname="packages/link/__tests__/Link.spec.tsx" name="Link component &gt; should render with href and disabled" time="0.01">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/layout/__tests__/Layout.spec.tsx" timestamp="2023-05-12T15:27:47.427Z" hostname="FFPTM2C20H5MD6P" tests="2" failures="0" errors="0" skipped="0" time="0.31">
+        <testcase classname="packages/layout/__tests__/Layout.spec.tsx" name="Layout &gt; should render a Layout correctly" time="0.109">
+        </testcase>
+        <testcase classname="packages/layout/__tests__/Layout.spec.tsx" name="Layout &gt; calls onChangeNavigation when navigation item is clicked" time="0.197">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/navigation-bar/__tests__/NavigationBar.spec.tsx" timestamp="2023-05-12T15:27:47.428Z" hostname="FFPTM2C20H5MD6P" tests="2" failures="0" errors="0" skipped="0" time="0.096">
+        <testcase classname="packages/navigation-bar/__tests__/NavigationBar.spec.tsx" name="NavigationBar &gt; should render NavigationBar correctly" time="0.052">
+        </testcase>
+        <testcase classname="packages/navigation-bar/__tests__/NavigationBar.spec.tsx" name="NavigationBar &gt; should call onChange when an item is clicked" time="0.025">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/modal/__tests__/Modal.spec.tsx" timestamp="2023-05-12T15:27:47.428Z" hostname="FFPTM2C20H5MD6P" tests="2" failures="0" errors="0" skipped="0" time="0.386">
+        <testcase classname="packages/modal/__tests__/Modal.spec.tsx" name="Modal components &gt; should render a Modal correctly" time="0.243">
+        </testcase>
+        <testcase classname="packages/modal/__tests__/Modal.spec.tsx" name="Modal components &gt; should render a Modal correctly without Portal" time="0.124">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/pagination/__tests__/PaginationBar.spec.tsx" timestamp="2023-05-12T15:27:47.428Z" hostname="FFPTM2C20H5MD6P" tests="5" failures="0" errors="0" skipped="0" time="0.212">
+        <testcase classname="packages/pagination/__tests__/PaginationBar.spec.tsx" name="PaginationBar &gt; should render a pagination bar without error" time="0.102">
+            <system-err>
+(react-paginate): Both initialPage (0) and forcePage (0) props are provided, which is discouraged. Use exclusively forcePage prop for a controlled component.
+See https://reactjs.org/docs/forms.html#controlled-components
+
+            </system-err>
+        </testcase>
+        <testcase classname="packages/pagination/__tests__/PaginationBar.spec.tsx" name="PaginationBar &gt; should render a pagination bar with no pages without error" time="0.004">
+        </testcase>
+        <testcase classname="packages/pagination/__tests__/PaginationBar.spec.tsx" name="PaginationBar &gt; should render a pagination bar with button components without error" time="0.027">
+            <system-err>
+(react-paginate): Both initialPage (0) and forcePage (0) props are provided, which is discouraged. Use exclusively forcePage prop for a controlled component.
+See https://reactjs.org/docs/forms.html#controlled-components
+
+            </system-err>
+        </testcase>
+        <testcase classname="packages/pagination/__tests__/PaginationBar.spec.tsx" name="PaginationBar &gt; should render a pagination bar with button components and on margin without error" time="0.016">
+            <system-err>
+(react-paginate): Both initialPage (0) and forcePage (0) props are provided, which is discouraged. Use exclusively forcePage prop for a controlled component.
+See https://reactjs.org/docs/forms.html#controlled-components
+
+            </system-err>
+        </testcase>
+        <testcase classname="packages/pagination/__tests__/PaginationBar.spec.tsx" name="PaginationBar &gt; should call onChange when next and previous buttons are clicked" time="0.036">
+            <system-err>
+(react-paginate): Both initialPage (0) and forcePage (0) props are provided, which is discouraged. Use exclusively forcePage prop for a controlled component.
+See https://reactjs.org/docs/forms.html#controlled-components
+
+            </system-err>
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/radio-group/__tests__/RadioGroup.spec.tsx" timestamp="2023-05-12T15:27:47.430Z" hostname="FFPTM2C20H5MD6P" tests="7" failures="0" errors="0" skipped="0" time="0.186">
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render a basic Radio Group" time="0.077">
+        </testcase>
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render a vertical Radio Group" time="0.012">
+        </testcase>
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render Radio Group with small size" time="0.016">
+        </testcase>
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render a Radio Group with icon" time="0.029">
+        </testcase>
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render a Radio Group with icon and small size" time="0.014">
+        </testcase>
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render a Radio Group with icon and disabled option" time="0.019">
+        </testcase>
+        <testcase classname="packages/radio-group/__tests__/RadioGroup.spec.tsx" name="Radio Group component &gt; should render a Radio Group with default and disabled option" time="0.015">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/tabs/__tests__/Tabs.spec.tsx" timestamp="2023-05-12T15:27:47.431Z" hostname="FFPTM2C20H5MD6P" tests="2" failures="0" errors="0" skipped="0" time="0.193">
+        <testcase classname="packages/tabs/__tests__/Tabs.spec.tsx" name="Tabs &gt; Shoud render spaced tabs" time="0.109">
+            <system-err>
+Warning: React does not recognize the `isSpaced` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `isspaced` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+    at button
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:47:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:21:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:47:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:21:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-collection/dist/index.js:65:24
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-roving-focus/dist/index.js:152:38
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tabs/dist/index.js:100:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:44:39
+    at Tab (/Users/joao.matosdias/www/farfetch/storm-uikit/packages/tabs/src/Tab/Tab.tsx:150:3)
+    at div
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:47:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:21:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-roving-focus/dist/index.js:62:38
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:47:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:21:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-collection/dist/index.js:50:24
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at CollectionProvider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-collection/dist/index.js:34:24)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-roving-focus/dist/index.js:51:22
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tabs/dist/index.js:77:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:44:39
+    at TabList (/Users/joao.matosdias/www/farfetch/storm-uikit/packages/tabs/src/TabList/TabList.tsx:114:3)
+    at div
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tabs/dist/index.js:48:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:44:39
+    at Tabs (/Users/joao.matosdias/www/farfetch/storm-uikit/packages/tabs/src/Tabs.tsx:220:3)
+
+            </system-err>
+        </testcase>
+        <testcase classname="packages/tabs/__tests__/Tabs.spec.tsx" name="Tabs &gt; Should render packed tabs with default index" time="0.08">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/text-input/__tests__/TextInput.spec.tsx" timestamp="2023-05-12T15:27:47.432Z" hostname="FFPTM2C20H5MD6P" tests="22" failures="0" errors="0" skipped="0" time="1.133">
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a text input without label" time="0.051">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a text input with label" time="0.012">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a text input with leading icon" time="0.026">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a text input with trailing icon" time="0.02">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a text input with leading and trailing icon" time="0.018">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a disabled text input with leading and trailing icon" time="0.018">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a text input with error message" time="0.013">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Regular Input &gt; should render a disabled text input" time="0.009">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Trailing Button Text Input &gt; should render a leading button text input" time="0.026">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Trailing Button Text Input &gt; should render a leading button text input with error message" time="0.023">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Trailing Button Text Input &gt; should render a trailing button text input" time="0.011">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Trailing Button Text Input &gt; should render a trailing button text input with error message" time="0.03">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render a regular text input with left dropdown" time="0.026">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render a text input with right dropdown" time="0.013">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render a dropdown text input with errorMessage" time="0.016">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render a regular text input with right icon" time="0.037">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render a regular text input with left icon" time="0.029">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render a disabled regular text input dropdown" time="0.034">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should render an open dropdown" time="0.485">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should call handleOnChangeDropdownValue with dropdown" time="0.109">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Text Input Dropdown component &gt; should call handleOnChangeDropdownValue with input" time="0.096">
+        </testcase>
+        <testcase classname="packages/text-input/__tests__/TextInput.spec.tsx" name="TextInput component &gt; Search Input component &gt; should render a search input component" time="0.025">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/toast/__tests__/Toast.spec.tsx" timestamp="2023-05-12T15:27:47.435Z" hostname="FFPTM2C20H5MD6P" tests="12" failures="0" errors="0" skipped="0" time="3.979">
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should render a Default Toast correctly" time="0.158">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should render a Warning Toast correctly" time="0.071">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should render a Success Toast correctly" time="0.071">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should render a Error Toast correctly" time="0.082">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; renders correctly a not dismissible toast" time="0.084">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; renders correctly a dismissible toast with dismissText" time="0.119">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; calls the onClose function when the Space key is pressed on close component" time="0.135">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; calls the onClose function when the Enter key is pressed on close component" time="0.078">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should call onClose after duration time when auto hide" time="3.032">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should not call onClose after duration time when no auto hide" time="0.034">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; renders action links correctly" time="0.042">
+        </testcase>
+        <testcase classname="packages/toast/__tests__/Toast.spec.tsx" name="Toast component &gt; should call onClose when user clicks close element" time="0.063">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/tooltip/__tests__/Tooltip.spec.tsx" timestamp="2023-05-12T15:27:47.436Z" hostname="FFPTM2C20H5MD6P" tests="4" failures="0" errors="0" skipped="0" time="0.343">
+        <testcase classname="packages/tooltip/__tests__/Tooltip.spec.tsx" name="Tooltip &gt; Should render tooltip with no supporting text" time="0.053">
+        </testcase>
+        <testcase classname="packages/tooltip/__tests__/Tooltip.spec.tsx" name="Tooltip &gt; Should render tooltip with dark theme" time="0.014">
+        </testcase>
+        <testcase classname="packages/tooltip/__tests__/Tooltip.spec.tsx" name="Tooltip &gt; Should render open tooltip" time="0.186">
+            <system-err>
+Warning: React does not recognize the `isDark` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `isdark` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+    at svg
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-arrow/dist/index.js:21:23
+    at span
+    at $34310caa050a8d63$export$79d62cd4e10a3fd0 (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-popper/dist/index.js:273:28)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:447:29
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:44:39
+    at $82dc8d030dec7549$export$d9f1ccf0bdb05d45 (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:57:165)
+    at div
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at div
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-popper/dist/index.js:99:28
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:47:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:21:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-dismissable-layer/dist/index.js:41:42
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:383:29
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:283:103
+    at $a2fa0214bb2735a1$export$99c2b779aa4e8b8b (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-presence/dist/index.js:25:22)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:267:108
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:44:39
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at $34310caa050a8d63$export$badac9ada3a0bdf9 (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-popper/dist/index.js:57:28)
+    at $c34afbc43c90cc6f$export$28c660c63b792dea (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:101:29)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/packages/tooltip/src/Tooltip.tsx:259:3
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at $c34afbc43c90cc6f$export$f78649fb9ca566b8 (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:62:29)
+    at ThemeProvider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:107:37)
+    at Providers (/Users/joao.matosdias/www/farfetch/storm-uikit/utils/tests.tsx:14:22)
+Warning: React does not recognize the `hasSupporting` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `hassupporting` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+    at div
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at div
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-popper/dist/index.js:99:28
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:47:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-slot/dist/index.js:21:23
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-primitive/dist/index.js:44:26
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-dismissable-layer/dist/index.js:41:42
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:383:29
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:283:103
+    at $a2fa0214bb2735a1$export$99c2b779aa4e8b8b (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-presence/dist/index.js:25:22)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:267:108
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:44:39
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at $34310caa050a8d63$export$badac9ada3a0bdf9 (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-popper/dist/index.js:57:28)
+    at $c34afbc43c90cc6f$export$28c660c63b792dea (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:101:29)
+    at /Users/joao.matosdias/www/farfetch/storm-uikit/packages/tooltip/src/Tooltip.tsx:259:3
+    at Provider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-context/dist/index.js:47:28)
+    at $c34afbc43c90cc6f$export$f78649fb9ca566b8 (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@radix-ui/react-tooltip/dist/index.js:62:29)
+    at ThemeProvider (/Users/joao.matosdias/www/farfetch/storm-uikit/node_modules/@emotion/react/dist/emotion-element-3838ba9e.esm.js:107:37)
+    at Providers (/Users/joao.matosdias/www/farfetch/storm-uikit/utils/tests.tsx:14:22)
+
+            </system-err>
+        </testcase>
+        <testcase classname="packages/tooltip/__tests__/Tooltip.spec.tsx" name="Tooltip &gt; Should render open tooltip with dark theme" time="0.084">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/card/src/__tests__/Card.spec.tsx" timestamp="2023-05-12T15:27:47.437Z" hostname="FFPTM2C20H5MD6P" tests="1" failures="0" errors="0" skipped="0" time="0.031">
+        <testcase classname="packages/card/src/__tests__/Card.spec.tsx" name="Card &gt; should render a card without error" time="0.029">
+        </testcase>
+    </testsuite>
+    <testsuite name="packages/card/src/SelectableCard/__tests__/SelectableCard.spec.tsx" timestamp="2023-05-12T15:27:47.437Z" hostname="FFPTM2C20H5MD6P" tests="3" failures="0" errors="0" skipped="0" time="0.055">
+        <testcase classname="packages/card/src/SelectableCard/__tests__/SelectableCard.spec.tsx" name="Selectable Card &gt; should render a selectable card without error" time="0.035">
+        </testcase>
+        <testcase classname="packages/card/src/SelectableCard/__tests__/SelectableCard.spec.tsx" name="Selectable Card &gt; should render a selectable card with selected state" time="0.012">
+        </testcase>
+        <testcase classname="packages/card/src/SelectableCard/__tests__/SelectableCard.spec.tsx" name="Selectable Card &gt; should render a selectable card with disabled state" time="0.005">
+        </testcase>
+    </testsuite>
+</testsuites>

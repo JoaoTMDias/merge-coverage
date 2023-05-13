@@ -1,9 +1,8 @@
-import { throwError } from "@jtmdias/js-utilities";
 import {
 	DEFAULT_COVERAGE_FOLDER,
-	DEFAULT_REPORTS_FOLDER,
+	DEFAULT_COVERAGE_REPORTS_FOLDER,
 	DEFAULT_TEST_RUNNERS,
-	FINAL_OUTPUT_FOLDER,
+	FINAL_COVERAGE_OUTPUT_FOLDER,
 } from "../../constants";
 import { clearFolder, runCommand } from "../../helpers";
 import { Command, Config, Flags } from "@oclif/core";
@@ -28,7 +27,7 @@ function setCopyToDestinationCommand(tool: string, coverage: string, reports: st
 export function copyFolders(
 	tools: string[] | string = DEFAULT_TEST_RUNNERS,
 	coverage = DEFAULT_COVERAGE_FOLDER,
-	reports = DEFAULT_REPORTS_FOLDER,
+	reports = DEFAULT_COVERAGE_REPORTS_FOLDER,
 ): Promise<void> | undefined {
 	try {
 		if (Array.isArray(tools)) {
@@ -41,14 +40,14 @@ export function copyFolders(
 			return runCommand([setCopyToDestinationCommand(tools, coverage, reports)]);
 		}
 	} catch (error) {
-		throwError("helpers", "copy-folders", `tools type is not a string: ${error}`);
+		throw new Error(`helpers/copy-folders: tools type is not a string: ${error}`);
 	}
 }
 
 /**
  * Combines coverage from different test runners
  */
-export default class Combine extends Command {
+export default class CombineCoverage extends Command {
 	static description = "Combines coverage from different test runner tools";
 
 	static examples = [
@@ -77,8 +76,8 @@ $ <%= config.bin %> <%= command.id %> --tools vitest,cypress
 	constructor(argv: string[], config: Config) {
 		super(argv, config);
 
-		this.reportsFolder = DEFAULT_REPORTS_FOLDER;
-		this.outputFolder = FINAL_OUTPUT_FOLDER;
+		this.reportsFolder = DEFAULT_COVERAGE_REPORTS_FOLDER;
+		this.outputFolder = FINAL_COVERAGE_OUTPUT_FOLDER;
 		this.testRunners = DEFAULT_TEST_RUNNERS;
 	}
 
@@ -93,9 +92,7 @@ $ <%= config.bin %> <%= command.id %> --tools vitest,cypress
 				);
 
 				// Cleans the nyc folder and the coverage folder
-				clearFolder(".nyc_output")
-					.then(() => clearFolder(this.outputFolder))
-					.then(() => this.log("✓ Bootstrapped folders!"));
+				clearFolder(".nyc_output").then(() => clearFolder(this.outputFolder));
 
 				resolve();
 			} catch (error) {
@@ -117,7 +114,7 @@ $ <%= config.bin %> <%= command.id %> --tools vitest,cypress
 		const MOVE_COVERAGE_TO_OUTPUT = `mv coverage.json .nyc_output/out.json`;
 
 		// Create text-summary+html report and output to coverage directory
-		const CREATE_REPORT_SUMMARY = `nyc report --reporter=html --report-dir=${FINAL_OUTPUT_FOLDER}`;
+		const CREATE_REPORT_SUMMARY = `nyc report --reporter=html --report-dir=${FINAL_COVERAGE_OUTPUT_FOLDER}`;
 
 		const MERGE_COMMANDS = [MERGE_REPORTS_CMD, MOVE_COVERAGE_TO_OUTPUT, CREATE_REPORT_SUMMARY];
 
@@ -125,11 +122,11 @@ $ <%= config.bin %> <%= command.id %> --tools vitest,cypress
 	}
 
 	async run(): Promise<void> {
-		const { tools, folder } = (await this.parse(Combine)).flags;
+		const { tools, folder } = (await this.parse(CombineCoverage)).flags;
 
 		if (tools) {
 			if (typeof tools !== "string") {
-				throwError("helpers", "combine", "type of tools flag is not string");
+				throw new TypeError("helpers/combine-coverage: type of tools flag is not string");
 			}
 
 			this.testRunners = tools.split(",") ?? DEFAULT_TEST_RUNNERS;
@@ -137,7 +134,7 @@ $ <%= config.bin %> <%= command.id %> --tools vitest,cypress
 
 		if (folder) {
 			if (typeof folder !== "string") {
-				throwError("helpers", "combine", "type of folder flag is not string");
+				throw new TypeError("helpers/combine-coverage: type of folder flag is not string");
 			}
 
 			this.reportsFolder = folder;

@@ -3,7 +3,7 @@ import rootPath from "app-root-path";
 import { expect, test } from "@oclif/test";
 import {
 	DEFAULT_COVERAGE_FOLDER,
-	DEFAULT_REPORTS_FOLDER,
+	DEFAULT_COVERAGE_REPORTS_FOLDER,
 	DEFAULT_TEST_RUNNERS,
 } from "../../src/constants";
 
@@ -11,7 +11,7 @@ const CUSTOM_RUNNERS = "vitest,cypress";
 const CUSTOM_REPORTS = "custom-folder";
 const CUSTOM_REPORTS_FOLDER = `${CUSTOM_REPORTS}/reports`;
 
-const TEST_REPORTS_FOLDER = `${rootPath.path}/${DEFAULT_REPORTS_FOLDER}`;
+const TEST_REPORTS_FOLDER = `${rootPath.path}/${DEFAULT_COVERAGE_REPORTS_FOLDER}`;
 const TEST_COVERAGE_FOLDER = `${rootPath.path}/${DEFAULT_COVERAGE_FOLDER}`;
 const TEST_CUSTOM_FOLDER = `${rootPath.path}/${CUSTOM_REPORTS}`;
 const TEST_FINAL_COVERAGE_FOLDER = `${rootPath.path}/coverage`;
@@ -46,7 +46,7 @@ function clearFolders(folders: string[]) {
 	});
 }
 
-describe("combine", () => {
+describe("combine-coverage", () => {
 	beforeEach(async () => {
 		try {
 			await fs.promises.mkdir(TEST_REPORTS_FOLDER, { recursive: true });
@@ -60,14 +60,13 @@ describe("combine", () => {
 		return clearFolders([TEST_COVERAGE_FOLDER, TEST_CUSTOM_FOLDER, TEST_FINAL_COVERAGE_FOLDER]);
 	});
 
-	it("should run default combine command", () => {
+	it("should run default combine-coverage command", () => {
 		test
 			.stdout()
-			.command(["combine"])
+			.command(["combine-coverage"])
 			.it("Default command", (ctx) => {
 				expect(ctx.stdout).to.contain(`✓ Copied coverage folders from: ${DEFAULT_TEST_RUNNERS}`);
-				expect(ctx.stdout).to.contain("✓ Bootstrapped folders!");
-				expect(ctx.stdout).to.contain(`✓ Combined coverage to: ${DEFAULT_REPORTS_FOLDER}`);
+				expect(ctx.stdout).to.contain(`✓ Combined coverage to: ${DEFAULT_COVERAGE_REPORTS_FOLDER}`);
 			});
 	});
 
@@ -83,7 +82,7 @@ describe("combine", () => {
 	it("should run combine command with custom runners", () => {
 		test
 			.stdout()
-			.command(["combine", `--folder=${CUSTOM_REPORTS_FOLDER}`])
+			.command(["combine-coverage", `--folder=${CUSTOM_REPORTS_FOLDER}`])
 			.it("Custom reports folder", (ctx) => {
 				expect(ctx.stdout).to.contain(`✓ Combined coverage to: ${CUSTOM_REPORTS_FOLDER}`);
 			});

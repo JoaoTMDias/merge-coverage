@@ -1,5 +1,5 @@
 import { Command, Flags } from "@oclif/core";
-import { DEFAULT_REPORTS_FOLDER } from "../../constants";
+import { DEFAULT_COVERAGE_REPORTS_FOLDER } from "../../constants";
 import { clearFolder } from "../../helpers";
 
 export default class Clear extends Command {
@@ -22,12 +22,15 @@ $ <%= config.bin %> <%= command.id %> --folder custom-folder/reports
 
 	async run(): Promise<void> {
 		const { flags } = await this.parse(Clear);
-		const REPORTS_FOLDER = flags.folder ?? DEFAULT_REPORTS_FOLDER;
+		const REPORTS_FOLDER = flags.folder ?? DEFAULT_COVERAGE_REPORTS_FOLDER;
 
 		try {
-			await clearFolder(REPORTS_FOLDER);
+			for (const folder of REPORTS_FOLDER.split(",")) {
+				// eslint-disable-next-line no-await-in-loop
+				await clearFolder(folder);
+			}
 
-			this.log(`✓ Cleared coverage folder: ${REPORTS_FOLDER}`);
+			this.log(`✓ Removed folder: ${REPORTS_FOLDER}`);
 		} catch (error) {
 			this.log(`⚠️ Clearing coverage: `, error);
 		}
