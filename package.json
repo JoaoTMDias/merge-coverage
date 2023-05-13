@@ -29,7 +29,7 @@
 		"app-root-path": "^3.1.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.4.4",
+		"@commitlint/cli": "^17.6.3",
 		"@commitlint/config-conventional": "^17.4.4",
 		"@oclif/test": "^2.3.16",
 		"@semantic-release/changelog": "^6.0.2",
