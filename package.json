@@ -1,7 +1,7 @@
 {
 	"name": "@jtmdias/merge-coverage",
 	"private": false,
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "Merges test coverage between different test frameworks",
 	"author": "João Dias @JoaoTMDias",
 	"bin": {
@@ -25,8 +25,8 @@
 		"@oclif/core": "^2",
 		"@oclif/plugin-help": "^5",
 		"@oclif/plugin-plugins": "^2.4.6",
-		"junit-report-merger": "^6.0.2",
-		"app-root-path": "^3.1.0"
+		"app-root-path": "^3.1.0",
+		"junit-report-merger": "^6.0.2"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.4.4",
@@ -55,7 +55,7 @@
 		"nyc": "^15.1.0",
 		"oclif": "^3",
 		"prettier": "^2.8.8",
-		"semantic-release": "19.0.2",
+		"semantic-release": "^21.0.2",
 		"shx": "^0.3.3",
 		"ts-node": "^10.9.1",
 		"tslib": "^2.5.0",
@@ -92,7 +92,7 @@
 		"version": "oclif readme && git add README.md",
 		"prettier:base": "prettier --parser typescript",
 		"format:fix": "yarn prettier:base --write '{src,test}/**/*.{ts,tsx,js,jsx}'",
-		"semantic-release": "npx -p node@v18-lts -c \"npx semantic-release\""
+		"semantic-release": "semantic-release"
 	},
 	"engines": {
 		"node": ">=16"
