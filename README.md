@@ -19,7 +19,7 @@ $ npm install -g @jtmdias/merge-coverage
 $ merge-coverage COMMAND
 running command...
 $ merge-coverage (--version)
-@jtmdias/merge-coverage/1.0.2 darwin-x64 node-v16.19.1
+@jtmdias/merge-coverage/1.1.0 linux-x64 node-v18.16.0
 $ merge-coverage --help [COMMAND]
 USAGE
   $ merge-coverage COMMAND
@@ -29,7 +29,8 @@ USAGE
 # Commands
 <!-- commands -->
 * [`merge-coverage clear`](#merge-coverage-clear)
-* [`merge-coverage combine`](#merge-coverage-combine)
+* [`merge-coverage combine-coverage`](#merge-coverage-combine-coverage)
+* [`merge-coverage combine-reports`](#merge-coverage-combine-reports)
 * [`merge-coverage help [COMMANDS]`](#merge-coverage-help-commands)
 * [`merge-coverage plugins`](#merge-coverage-plugins)
 * [`merge-coverage plugins:install PLUGIN...`](#merge-coverage-pluginsinstall-plugin)
@@ -61,15 +62,15 @@ EXAMPLES
   $ merge-coverage clear --folder custom-folder/reports
 ```
 
-_See code: [dist/commands/clear/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.2/dist/commands/clear/index.ts)_
+_See code: [dist/commands/clear/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.1.0/dist/commands/clear/index.ts)_
 
-## `merge-coverage combine`
+## `merge-coverage combine-coverage`
 
 Combines coverage from different test runner tools
 
 ```
 USAGE
-  $ merge-coverage combine [-f <value>] [-f <value>]
+  $ merge-coverage combine-coverage [-f <value>] [-f <value>]
 
 FLAGS
   -f, --folder=<value>  Custom reports folder
@@ -79,11 +80,35 @@ DESCRIPTION
   Combines coverage from different test runner tools
 
 EXAMPLES
-  $ merge-coverage combine
-  $ merge-coverage combine --tools vitest,cypress
+  $ merge-coverage combine-coverage
+  $ merge-coverage combine-coverage --tools vitest,cypress
 ```
 
-_See code: [dist/commands/combine/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.0.2/dist/commands/combine/index.ts)_
+_See code: [dist/commands/combine-coverage/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.1.0/dist/commands/combine-coverage/index.ts)_
+
+## `merge-coverage combine-reports`
+
+Combines multiple junit xml files
+
+```
+USAGE
+  $ merge-coverage combine-reports [-f <value>] [-f <value>]
+
+FLAGS
+  -f, --folder=<value>      Custom reports folder
+  -f, --outputFile=<value>  Custom output XML file destination
+
+DESCRIPTION
+  Combines multiple junit xml files
+
+EXAMPLES
+  $ merge-coverage combine-reports
+  $ merge-coverage combine-reports --folder custom-folder
+  $ merge-coverage combine-reports --outputFile custom-file.xml
+  $ merge-coverage combine-reports --folder custom-folder --outputFile custom-file.xml
+```
+
+_See code: [dist/commands/combine-reports/index.ts](https://github.com/JoaoTMDias/merge-coverage/blob/v1.1.0/dist/commands/combine-reports/index.ts)_
 
 ## `merge-coverage help [COMMANDS]`
 
